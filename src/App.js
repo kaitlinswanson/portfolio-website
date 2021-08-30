@@ -1,5 +1,6 @@
-import React from 'react'
-import './App.css';
+import React from "react";
+import "./App.css";
+import Main from './Main';
 
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -15,7 +16,7 @@ const firebaseConfig = {
   storageBucket: "portfolio-6f5ea.appspot.com",
   messagingSenderId: "832525904884",
   appId: "1:832525904884:web:0cd71aa1506785171727a1",
-  measurementId: "G-26KEMGRLCB"
+  measurementId: "G-26KEMGRLCB",
 };
 
 // Initialize Firebase
@@ -23,11 +24,15 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
 function App() {
-  return (
-    <div className="App">
-      Welcome to my portfolio! 
-    </div>
-  );
+
+
+ 
+  return <div className="App">
+    
+    <Main 
+    />
+      
+      </div>;
 }
 
 export default App;
