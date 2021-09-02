@@ -1,7 +1,7 @@
 
 .main-holder { 
     display: grid;
-    height: 100vh;
+    height: 120vh;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
     grid-template-areas: 
@@ -58,22 +58,45 @@
     }
 }
 
+#nav { 
+    background-color: white;
+    /* background-image: linear-gradient(to right, rgb(9, 153, 158),rgb(82, 241, 218)) */
+}
+
 .welcome { 
     display: flex;
     align-content: center;
-    flex-direction: row;
 }
 
 #profile-pic { 
-    max-height: 300px;
+    max-height: 450px;
+}
+
+.title { 
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 65vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
 }
 
 #welcome-message { 
-    display: flex;
-    align-content: center;
-    font-family: 'Noto Sans JP', sans-serif;
-    width: 65vw;
-    font-size: 60px;
-    margin-top: 10%;
+font-size: 60px;
+color:rgb(71, 71, 71);
+letter-spacing: 2px;
+}
 
+.socials-holder { 
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+#github, #linkedin, #twitter { 
+    font-size: 35px;
+    color: rgba(241, 93, 48, 0.918);
+    padding: 10px;
 }
