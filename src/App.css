@@ -1,102 +1,140 @@
-
-.main-holder { 
-    display: grid;
-    height: 120vh;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
-    grid-template-areas: 
+.main-holder {
+  display: grid;
+  height: 120vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+  grid-template-areas:
     "nav nav nav"
     "main main main"
     "content1 content2 content3"
     "footer footer footer";
-    grid-gap: 0.2rem;
+  grid-gap: 0.2rem;
 }
 
-
-#nav { 
-    background-color: aquamarine;
-    grid-area: nav;
+#nav {
+  background-color: aquamarine;
+  grid-area: nav;
 }
 
-#main { 
-    background-color: white;
-    grid-area: main;
+#main {
+  background-color: white;
+  grid-area: main;
 }
 
 #content1 {
-    background-color: cyan;
-    grid-area: content1;
+  background-color: white;
+  border: 1px solid rgb(216, 211, 211);
+  border-radius: 10px;
+  box-shadow: 10px 10px 8px #888888;
+
+  grid-area: content1;
 }
 
 #content2 {
-    background-color: cyan;
-    grid-area: content2;
+  background-color: cyan;
+  grid-area: content2;
 }
 
 #content3 {
-    background-color: cyan;
-    grid-area: content3;
+  background-color: cyan;
+  grid-area: content3;
 }
 
-#footer { 
-    background-color: darkblue;
-    grid-area: footer;
+#footer {
+  background-color: darkblue;
+  grid-area: footer;
 }
 
-@media only screen and (max-width:550px) {
-    .main-holder{
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
-        grid-template-areas: 
-        "nav"
-        "main"
-        "content1"
-        "content2"
-        "content3"
-        "footer"
-        ;
-    }
+@media only screen and (max-width: 550px) {
+  .main-holder {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+    grid-template-areas:
+      "nav"
+      "main"
+      "content1"
+      "content2"
+      "content3"
+      "footer";
+  }
 }
 
-#nav { 
-    background-color: white;
-    /* background-image: linear-gradient(to right, rgb(9, 153, 158),rgb(82, 241, 218)) */
+#nav {
+  background-color: white;
+  /* background-image: linear-gradient(to right, rgb(9, 153, 158),rgb(82, 241, 218)) */
 }
 
-.welcome { 
-    display: flex;
-    align-content: center;
+.welcome {
+  display: flex;
+  align-content: center;
 }
 
-#profile-pic { 
-    max-height: 450px;
+#profile-pic {
+  max-height: 450px;
 }
 
-.title { 
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    font-family: 'Noto Sans JP', sans-serif;
-    width: 65vw;
-    margin-top: 5%;
-    margin-bottom: 5%;
-
+.title {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  font-family: "Noto Sans JP", sans-serif;
+  width: 65vw;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-#welcome-message { 
-font-size: 60px;
-color:rgb(71, 71, 71);
-letter-spacing: 2px;
+#welcome-message {
+  font-size: 60px;
+  color: rgb(71, 71, 71);
+  letter-spacing: 2px;
+  margin-left: 5vw;
 }
 
-.socials-holder { 
-    display: flex;
-    flex-direction: row;
-    padding-top: 20px;
+.socials-holder {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  margin-left: 5vw;
 }
 
-#github, #linkedin, #twitter { 
-    font-size: 35px;
-    color: rgba(241, 93, 48, 0.918);
-    padding: 10px;
+#github,
+#linkedin,
+#twitter {
+  font-size: 35px;
+  color: rgba(241, 93, 48, 0.918);
+  padding: 10px;
+}
+.content-class {
+  font-family: "Noto Sans JP", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.content-holder {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#memory-game-img {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 350px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#memory-game-button {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-left: 15%;
+  margin-bottom: 15px;
+  width: 20vw;
+  height: 25px;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(241, 93, 48, 0.918);
 }

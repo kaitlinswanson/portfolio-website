@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import Main from './Main';
 
+
+
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
@@ -30,12 +32,14 @@ function App() {
 
 
  
-  return <div className="App">
-    
+  return (
+  <div className="App">
+
     <Main 
-    />
-      
-      </div>;
+    /> 
+      </div>
+  )
+
 }
 
 export default App;
