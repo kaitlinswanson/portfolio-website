@@ -1,11 +1,12 @@
 import React from 'react'; 
 
-
 function Main() { 
 
     return (
         <div className="main-holder">
-            <nav id="nav">Nav</nav>
+            <nav id="nav">
+                <div className="name">Kaitlin Swanson</div>
+                </nav>
             <main id="main">Main</main>
             <div id="content1">Content 1</div>
             <div id="content2">Content 2</div>
@@ -16,4 +17,4 @@ function Main() {
     )
 }
 
-export default Main;
+export default Main; 

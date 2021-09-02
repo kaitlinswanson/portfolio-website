@@ -23,6 +23,9 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
+
+
+//try usiong links to direct to created pages for each individual project so they can be used as resume links
 function App() {
 
 
