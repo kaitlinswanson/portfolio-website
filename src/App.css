@@ -8,7 +8,7 @@
     "main main main"
     "content1 content2 content3"
     "footer footer footer";
-  grid-gap: 0.2rem;
+  grid-gap: 0.4rem;
 }
 
 #nav {
@@ -23,7 +23,7 @@
 
 #content1 {
   background-color: white;
-  border: 1px solid rgb(216, 211, 211);
+  border: 1px solid rgba(216, 211, 211, 0.733);
   border-radius: 10px;
   box-shadow: 10px 10px 8px #888888;
 
@@ -90,6 +90,11 @@
   margin-left: 5vw;
 }
 
+#info { 
+    margin-top: 5px;
+    margin-left: 5vw;
+}
+
 .socials-holder {
   display: flex;
   flex-direction: row;
@@ -129,10 +134,9 @@
   display: flex;
   align-content: center;
   justify-content: center;
-  margin-left: 15%;
   margin-bottom: 15px;
-  width: 20vw;
-  height: 25px;
+  min-width: 20vw;
+  min-height: 25px;
   padding: 0;
   border: none;
   border-radius: 10px;
