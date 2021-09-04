@@ -1,6 +1,7 @@
 .main-holder {
   display: grid;
   height: 120vh;
+  width: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
   grid-template-areas:
@@ -26,18 +27,21 @@
   border: 1px solid rgba(216, 211, 211, 0.733);
   border-radius: 10px;
   box-shadow: 10px 10px 8px #888888;
-
+  max-width: 100%;
   grid-area: content1;
+  margin: 30px;
 }
 
 #content2 {
   background-color: cyan;
   grid-area: content2;
+  margin: 30px;
 }
 
 #content3 {
   background-color: cyan;
   grid-area: content3;
+  margin: 30px;
 }
 
 #footer {
@@ -70,7 +74,7 @@
 }
 
 #profile-pic {
-  max-height: 450px;
+  max-height: 50vh;
 }
 
 .title {
@@ -93,6 +97,7 @@
 #info { 
     margin-top: 5px;
     margin-left: 5vw;
+    font-size: 17px;
 }
 
 .socials-holder {
@@ -123,8 +128,10 @@
   display: flex;
   align-content: center;
   justify-content: center;
-  width: 350px;
-  margin-top: 10px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
   margin-bottom: 10px;
 }
 
@@ -135,7 +142,9 @@
   align-content: center;
   justify-content: center;
   margin-bottom: 15px;
-  min-width: 15vw;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
   min-height: 25px;
   padding: 0;
   border: none;
