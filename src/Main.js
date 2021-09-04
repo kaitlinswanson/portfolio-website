@@ -32,7 +32,15 @@ function Main() {
             </div>
             <div className="content-class" id="content2">Reddit Clone</div>
             <div className="content-class" id="content3">Weather App</div>
-            <footer id="footer">Footer</footer>
+            <footer id="footer">
+                <div id="logos">
+                <div id="js-icon"><i class="fab fa-js-square"></i></div>
+                <div id="css-icon"><i class="fab fa-css3-alt"></i></div>
+                <div id="html-icon"><i class="fab fa-html5"></i></div>
+                <div id="react-icon"><i class="fab fa-react"></i></div>
+
+                </div>
+            </footer>
         </div>
         
     )
