@@ -26,11 +26,17 @@ function Main() {
             <div className="content-class" id="content1">
                 <div className="content-holder">
                 <div className="projct-title"></div>
-                <img src="memory-game-image.jpeg" alt="memory-game" id="memory-game-img"></img>
-                <button id="memory-game-button">Click For More</button>
+                <img src="memory-game-image.jpeg" alt="memory-game" className="project-photos" id="memory-game-img"></img>
+                <button className="more-buttons" id="memory-game-button">Click For More</button>
                 </div>
             </div>
-            <div className="content-class" id="content2">Reddit Clone</div>
+            <div className="content-class" id="content2">
+                <div className="content-holder">
+                <div className="projct-title"></div>
+                <img src="readit-image.png" alt="reddit clone" className="project-photos" id="readit-img"></img>
+                <button className="more-buttons" id="readit-button">Click For More</button>
+                </div>
+            </div>
             <div className="content-class" id="content3">Weather App</div>
             <footer id="footer">
                 <div id="logos">
@@ -45,5 +51,5 @@ function Main() {
         
     )
 }
-
+ 
 export default Main; 

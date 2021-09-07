@@ -33,13 +33,21 @@
 }
 
 #content2 {
-  background-color: cyan;
+  background-color: white;
+  border: 1px solid rgba(216, 211, 211, 0.733);
+  border-radius: 10px;
+  box-shadow: 10px 10px 8px #888888;
+  max-width: 100%;
   grid-area: content2;
   margin: 30px;
 }
 
 #content3 {
-  background-color: cyan;
+  background-color: white;
+  border: 1px solid rgba(216, 211, 211, 0.733);
+  border-radius: 10px;
+  box-shadow: 10px 10px 8px #888888;
+  max-width: 100%;
   grid-area: content3;
   margin: 30px;
 }
@@ -125,7 +133,7 @@
   justify-content: center;
   flex-direction: column;
 }
-#memory-game-img {
+.project-photos {
   display: flex;
   align-content: center;
   justify-content: center;
@@ -136,7 +144,7 @@
   margin-bottom: 10px;
 }
 
-#memory-game-button {
+.more-buttons {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 16px;
   display: flex;
