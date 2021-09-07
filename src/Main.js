@@ -37,13 +37,19 @@ function Main() {
                 <button className="more-buttons" id="readit-button">Click For More</button>
                 </div>
             </div>
-            <div className="content-class" id="content3">Weather App</div>
+            <div className="content-class" id="content3">
+            <div className="content-holder">
+                <div className="projct-title"></div>
+                <img src="weather-app.png" alt="weather app" className="project-photos" id="weather-img"></img>
+                <button className="more-buttons" id="weather-button">Click For More</button>
+                </div>
+            </div>
             <footer id="footer">
                 <div id="logos">
-                <div id="js-icon"><i class="fab fa-js-square"></i></div>
-                <div id="css-icon"><i class="fab fa-css3-alt"></i></div>
-                <div id="html-icon"><i class="fab fa-html5"></i></div>
-                <div id="react-icon"><i class="fab fa-react"></i></div>
+                <div className="logo" id="js-icon"><i class="fab fa-js-square"></i></div>
+                <div className="logo" id="css-icon"><i class="fab fa-css3-alt"></i></div>
+                <div className="logo" id="html-icon"><i class="fab fa-html5"></i></div>
+                <div className="logo" id="react-icon"><i class="fab fa-react"></i></div>
 
                 </div>
             </footer>
