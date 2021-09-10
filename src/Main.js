@@ -27,21 +27,24 @@ function Main() {
                 <div className="content-holder">
                 <div className="projct-title"></div>
                 <img src="memory-game-image.jpeg" alt="memory-game" className="project-photos" id="memory-game-img"></img>
-                <button className="more-buttons" id="memory-game-button">Click For More</button>
+                <a href="https://github.com/kaitlinswanson/memory-game" className="more-buttons" id="memory-game-button-code">View Code</a>
+                <a href="https://kaitlinswanson.github.io/memory-game/" className="more-buttons" id="memory-game-button">View Demo</a>
                 </div>
             </div>
             <div className="content-class" id="content2">
                 <div className="content-holder">
                 <div className="projct-title"></div>
                 <img src="readit-image.png" alt="reddit clone" className="project-photos" id="readit-img"></img>
-                <button className="more-buttons" id="readit-button">Click For More</button>
+                <a href="https://github.com/kaitlinswanson/reddit-clone" className="more-buttons" id="readit-button-code">View Code</a>
+                <a href="https://readit-30c4a.web.app/" className="more-buttons" id="readit-button">View Demo</a>
                 </div>
             </div>
             <div className="content-class" id="content3">
             <div className="content-holder">
                 <div className="projct-title"></div>
                 <img src="weather-app.png" alt="weather app" className="project-photos" id="weather-img"></img>
-                <button className="more-buttons" id="weather-button">Click For More</button>
+                <a href="https://github.com/kaitlinswanson/weather-app" className="more-buttons" id="weather-button-code">View Code</a>
+                <a href="https://kaitlinswanson.github.io/weather-app/" className="more-buttons" id="weather-button">View Demo</a>
                 </div>
             </div>
             <footer id="footer">
