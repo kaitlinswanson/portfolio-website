@@ -42,7 +42,7 @@ function Main() {
             <div className="content-class" id="content3">
             <div className="content-holder">
                 <div className="projct-title"></div>
-                <img src="weather-app.png" alt="weather app" className="project-photos" id="weather-img"></img>
+                <img src="weather-app-2.png" alt="weather app" className="project-photos" id="weather-img"></img>
                 <a href="https://github.com/kaitlinswanson/weather-app" className="more-buttons" id="weather-button-code">View Code</a>
                 <a href="https://kaitlinswanson.github.io/weather-app/" className="more-buttons" id="weather-button">View Demo</a>
                 </div>
