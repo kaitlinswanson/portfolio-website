@@ -12,8 +12,8 @@ function Main() {
             <div className="welcome">
             <div className="title">
             <div id="welcome-message">Hi, I'm Kaitlin!</div>
-            <div id="info">I'm a self-taught software developer. I have experience building projects using HTML, CSS, JavaScript and React.js. Below are a few of my recent projects.
-            I've completed over 20 projects which are available to view on my GitHub! </div>
+            <div id="info">I'm a self-taught software developer with a background in Sales, Account Management and Client Success. I have experience building projects using HTML, CSS, JavaScript and React.js. Below are a few of my recent projects.
+            More of my projects are available to view on my GitHub! </div>
             <div className="socials-holder">
                 <a href="https://github.com/kaitlinswanson" id="github"><i className="fab fa-github"></i></a> 
                 <a href="https://www.linkedin.com/in/kaitlinnswanson/" id="linkedin"><i className="fab fa-linkedin"></i></a>
